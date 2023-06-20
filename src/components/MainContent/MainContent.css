@@ -1,0 +1,151 @@
+
+.main-content {
+    padding: 40px 20px 80px;
+    height: auto;
+    width: 100%;
+    background-image: none;
+    transition: background-image 3.0s ease-in-out;
+    text-align: left;
+    position : relative;
+  }
+  
+  
+  .main-content h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #f6f7c4; /* 333 */
+    background-image: none;
+  } 
+
+  .h1 {
+    color: #f6f7c4; /* 333 */
+    padding: 40px 20px;  
+    width: 100%;
+    flex: auto;
+  }
+  
+  .main-content p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #f6f7c4; /* 555 */
+    background-image: none;
+  }
+  
+  /*.main-content a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #0077ff;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: all 0.3s ease-in-out;
+  } 
+  
+  .main-content a:hover {
+    background-color: #005ae6;
+    box-shadow: 0px 5px 15px rgba(0, 119, 255, 0.3);
+  }  */
+
+  .wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .test {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #f6f7c4; /* 333 */
+    background-image: none;
+  } 
+
+
+
+  /* LINK CSS */
+
+  .main-content__item {
+    margin: 0 20px;
+    position: relative;
+    text-align: center;
+  }
+  
+  .main-content__item a {
+    display: block;
+    color: #f6f7c4;
+    font-size: 32px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    padding: 10px;
+    border-radius: 25px;
+    border: 2px solid transparent;
+  }
+  
+  .main-content__item a:hover {
+    color: #4ce4f8;
+    background-color: rgba(0, 119, 255, 0.1);
+    border-color: rgba(208, 0, 255, 0.5);
+    box-shadow: 0px 5px 15px rgba(255, 0, 136, 0.3);
+  }
+  
+  .main-content__item a::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    border-radius: 30px;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .main-content__item a:hover::before {
+    opacity: 1;
+    border: 2px solid rgba(0, 119, 255, 0.5);
+    box-shadow: 0px 5px 15px rgba(0, 119, 255, 0.3);
+  }
+  
+
+  /* TESTIMONIAL CSS */
+
+  .testimonials-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .testimonial {
+    max-width: 300px;
+    background-color: #a644c48e;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .testimonial__image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial__name {
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .testimonial__quote {
+    font-size: 16px;
+    font-style: italic;
+  }
+  
+
+
+  

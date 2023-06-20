@@ -1,0 +1,6 @@
+.div{
+    flex: auto;
+    display: flex;
+    justify-content: center;
+    background-image: none;
+}

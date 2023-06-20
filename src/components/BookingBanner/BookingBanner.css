@@ -1,0 +1,19 @@
+.booking__banner{
+        background-color: #4d215e !important;
+        color: #f6f7c4 !important;
+        font-size: 2rem !important;
+        font-weight: 600 !important;
+        border: none !important;
+        border-radius: 0 !important; 
+        width: 100% !important;
+        display: flex !important;
+        justify-content: center !important;
+}
+
+.booking__banner:hover{
+        background-color: #74204066 !important;
+        color: #ffffff !important;
+        transition: 1s !important;
+        font-size: 2.5rem !important;
+}
+

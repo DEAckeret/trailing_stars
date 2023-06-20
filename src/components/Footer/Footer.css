@@ -1,0 +1,17 @@
+.footer {
+    padding: 40px 20px;
+    background-image: linear-gradient(to top, #000, #4d215e);
+    transition: background-image 3.0s ease-in-out;
+    text-align: left;
+    position: fixed; /* this along with the left bottom and right fixed the footer to bottom of page.  */
+    left: 0;   
+    bottom: 0;
+    right: 0;
+    height: fit-content;
+  }
+
+.footer p {
+    color: #f6f7c4;
+    font-size: 14px;
+    line-height: 1.5;
+  }
